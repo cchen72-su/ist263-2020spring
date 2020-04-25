@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+
+a{
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #2519FF;
+}
+
+a:hover{
+    background-color: #ddd;
+}
+.intro{
+    margin-top: 20px;
+    text-align: center;
+    line-height: 200px;
+}
+
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 35px;
+  height: 0;
+  overflow: hidden;
+}
+
+
+.video-container iframe {
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+
+.header{
+    overflow: hidden;
+    background-color: #f1f1f1;
+    padding: 10px 0px 5px 5px;
+    width: 100%;
+}
+
+.header-right{
+    float: right;
+    padding-right: 0px;
+}
+
+@media screen and (max-width: 600px) {
+    .header-right{
+    float: left;
+    }
+}
+
+.header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px; 
+    line-height: 25px;
+    border-radius: 4px;
+  }
+
+.footer{
+    text-align: center;
+    font-size: small;
+}
+p{
+    letter-spacing: 2px;
+    text-align: left;
+}
+.center{
+    text-align: center;
+}
+
+h1{
+  text-align: center;
+  margin: 20px;
+  font-family: 'Press Start 2P', cursive;
+  font-size: xx-large;
+}
+
+h2{
+    font-size:xx-large;
+}
+
+hr{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+ol{
+    display: block;
+    list-style-type: decimal;
+    margin-top: 1em;
+    padding-left: 40px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    margin-top: 10px;
+}
+
+
+.row{
+  margin: 5px ;
+}
+
+aside{
+    text-align: center;
+    margin-top:70px;
+    display: inline-block;
+}
